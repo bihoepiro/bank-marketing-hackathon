@@ -1,0 +1,11 @@
+.git
+.gitignore
+__pycache__
+*.pyc
+.venv
+venv
+notebooks
+data
+*.ipynb_checkpoints
+.DS_Store
+README.md

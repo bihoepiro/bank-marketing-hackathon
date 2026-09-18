@@ -1,0 +1,33 @@
+{
+  "model": "logistic_regression",
+  "variant": "standard",
+  "dataset": "standard (bank-full.csv, 17 variables)",
+  "version": "1.0",
+  "target": "y",
+  "classes": [
+    "no",
+    "yes"
+  ],
+  "duration_used": false,
+  "features": [
+    "age",
+    "balance",
+    "day",
+    "campaign",
+    "pdays",
+    "previous",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "poutcome"
+  ],
+  "decision_threshold": 0.663317482039106,
+  "f1_score": 0.4505050505050505,
+  "balanced_accuracy": 0.680969161222661,
+  "recommended_for_production": false
+}

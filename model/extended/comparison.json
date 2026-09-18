@@ -1,0 +1,56 @@
+{
+  "variant": "extended",
+  "dataset": "extended (bank-additional-full.csv, 20 variables, bonus)",
+  "recommended_model": "random_forest",
+  "all_candidates": {
+    "logistic_regression": {
+      "decision_threshold": 0.6365543601104191,
+      "f1_score": 0.5031166518254675,
+      "balanced_accuracy": 0.7528992200328407,
+      "precision": 0.4286798179059181,
+      "recall": 0.6088362068965517,
+      "roc_auc": 0.8002552853037767,
+      "confusion_matrix": [
+        [
+          6555,
+          753
+        ],
+        [
+          363,
+          565
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "no",
+        "yes"
+      ]
+    },
+    "random_forest": {
+      "decision_threshold": 0.5766380572141525,
+      "f1_score": 0.5195505617977528,
+      "balanced_accuracy": 0.7622297482211275,
+      "precision": 0.4456437933693138,
+      "recall": 0.6228448275862069,
+      "roc_auc": 0.8136070030717399,
+      "confusion_matrix": [
+        [
+          6589,
+          719
+        ],
+        [
+          350,
+          578
+        ]
+      ],
+      "confusion_matrix_labels": [
+        "no",
+        "yes"
+      ]
+    }
+  },
+  "test_size": 0.2,
+  "random_state": 42,
+  "n_train": 32940,
+  "n_test": 8236,
+  "n_total_retrain": 41176
+}

@@ -1,0 +1,37 @@
+{
+  "model": "logistic_regression",
+  "variant": "extended",
+  "dataset": "extended (bank-additional-full.csv, 20 variables, bonus)",
+  "version": "1.0",
+  "target": "y",
+  "classes": [
+    "no",
+    "yes"
+  ],
+  "duration_used": false,
+  "features": [
+    "age",
+    "campaign",
+    "pdays",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "decision_threshold": 0.6365543601104191,
+  "f1_score": 0.5031166518254675,
+  "balanced_accuracy": 0.7528992200328407,
+  "recommended_for_production": false
+}

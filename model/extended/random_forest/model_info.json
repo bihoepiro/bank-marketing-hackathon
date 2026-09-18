@@ -1,0 +1,37 @@
+{
+  "model": "random_forest",
+  "variant": "extended",
+  "dataset": "extended (bank-additional-full.csv, 20 variables, bonus)",
+  "version": "1.0",
+  "target": "y",
+  "classes": [
+    "no",
+    "yes"
+  ],
+  "duration_used": false,
+  "features": [
+    "age",
+    "campaign",
+    "pdays",
+    "previous",
+    "emp.var.rate",
+    "cons.price.idx",
+    "cons.conf.idx",
+    "euribor3m",
+    "nr.employed",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "housing",
+    "loan",
+    "contact",
+    "month",
+    "day_of_week",
+    "poutcome"
+  ],
+  "decision_threshold": 0.5766380572141525,
+  "f1_score": 0.5195505617977528,
+  "balanced_accuracy": 0.7622297482211275,
+  "recommended_for_production": true
+}
