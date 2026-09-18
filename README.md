@@ -2,6 +2,8 @@
 
 Hackathon 6 — implementación y despliegue de modelos de Machine Learning usando el **Bank Marketing Dataset (UCI)**.
 
+> ¿Quieres desplegar tu propia copia de esta API en tu propia cuenta de GCP? Ve directo a [GUIA_DESPLIEGUE.md](GUIA_DESPLIEGUE.md).
+
 > **Nota de estandarización:** el profesor pidió usar el dataset de **17 variables** (`bank-full.csv`) como estándar de la clase — ese es el dataset **"standard"**, requerido. Adicionalmente, este proyecto implementa el dataset **extendido de 20 variables** (`bank-additional-full.csv`) como comparación opcional (+4 puntos de participación, según el mismo anuncio). Además, la Hackathon exige entrenar y comparar **al menos 2 modelos** (Parte 1) — en vez de desplegar solo el ganador, **los 2 modelos entrenados (Logistic Regression y Random Forest) se sirven para cada uno de los 2 datasets**: 2×2 = **4 modelos, cargados y funcionando en paralelo dentro de la misma API** (ver sección 8).
 
 ## 1. Problema
@@ -417,5 +419,6 @@ bank-marketing-hackathon/
 ├── requirements.txt
 ├── .dockerignore
 ├── .gitignore
-└── README.md
+├── README.md
+└── GUIA_DESPLIEGUE.md               # cómo desplegar tu propia copia en tu propia cuenta de GCP
 ```
